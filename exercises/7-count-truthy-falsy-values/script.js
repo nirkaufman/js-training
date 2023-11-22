@@ -9,4 +9,4 @@ function checkCountTruthyFalsy(curArray) {
 }
 
 // usage example:
-console.log(checkCountTruthyFalsy(valuesArray));
+console.log(checkCountTruthyFalsy(valuesArray)); // should return 2

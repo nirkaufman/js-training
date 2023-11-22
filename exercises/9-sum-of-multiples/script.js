@@ -15,4 +15,4 @@ function sumOfMultiples(curLimit) {
 }
 
 // usage:
-sumOfMultiples(10);
+sumOfMultiples(10); // 23

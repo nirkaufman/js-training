@@ -1,15 +1,14 @@
-console.log('15-sum-of-arguments-array');
+/*
+  * Sum of Arguments
+  * Create a function that sums all the arguments passed to it.
+  * The function accept an Array.
+  * Quantity of the arguments is unknown.
+  * use Resy Reduce method
+  *
+ */
+function sumOfArguments(/* arguments */){
 
-function sumOfArguments(...items){
-  // as rest operator converts anything passed as an array check following
-  if(items.length === 1 && Array.isArray(items[0])) {
-    // reset item as a new array 
-    items = [...items[0]]
-    console.log('current items/values to add:', items);
-    return items.reduce((n1, n2) => n1 +n2);
-  }
 }
 
-// pass arguments as an array
-// console.log('Sum:', sumOfArguments([10, 2, 8, 4, 6]));
-console.log('Sum:', sumOfArguments([10, 2, 8, 4, 6]));
+// usage: pass arguments as an array
+console.log('Sum:', sumOfArguments([10, 2, 8, 4, 6])); // 30

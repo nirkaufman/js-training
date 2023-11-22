@@ -8,11 +8,11 @@ function findMaxNumber(num1, num2){
 
 // Usage of your function
 let checkMax1 = findMaxNumber(10, 5);
-console.log('Max Number:',checkMax1);
+console.log('Max Number:',checkMax1); // -> Max Number: 10
 
-let checkMax2 = findMaxNumber(10, 15);
+let checkMax2 = findMaxNumber(10, 15); // -> Max Number: 15
 console.log('Max Number:',checkMax2);
 
-let checkMax3 = findMaxNumber(100, 100);
+let checkMax3 = findMaxNumber(100, 100); // -> Max Number: 100
 console.log('Max Number:',checkMax3);
 

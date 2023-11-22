@@ -14,5 +14,5 @@ function isOddEvenNumber(curLimit) {
 }
 
 // Usage example:
-isOddEvenNumber(10);
-isOddEvenNumber(17);
+isOddEvenNumber(10); // logs 0 - EVEN, 1 - ODD, 2 - EVEN, 3 - ODD, 4 - EVEN, 5 - ODD, 6 - EVEN, 7 - ODD, 8 - EVEN, 9 - ODD, 10 - EVEN
+isOddEvenNumber(17); // logs 0 - EVEN, 1 - ODD, 2 - EVEN, 3 - ODD, 4 - EVEN, 5 - ODD, 6 - EVEN, 7 - ODD, 8 - EVEN, 9 - ODD, 10 - EVEN, 11 - ODD, 12 - EVEN, 13 - ODD, 14 - EVEN, 15 - ODD, 16 - EVEN, 17 - ODD

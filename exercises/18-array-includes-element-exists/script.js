@@ -1,18 +1,15 @@
-console.log('18-array-includes-element-exists');
 
+/*
+  * Create a function that checks if an array contains a given element.
+ */
 function includes(arrayToSearch, elementToSearch) {
-  console.log('arrayToSearch: ', arrayToSearch);
-  console.log('elementToSearch: ', elementToSearch);
-  for(let curElement of arrayToSearch) {
-    if(curElement === elementToSearch) {
-      return true;
-    } 
-  }
-  return false;
+  // Write your code here
 }
 
+// usage example:
 const versionArray = [1, 2, 5, 7, 2];
-console.log(includes(versionArray, 2));
-console.log('---------');
+console.log(includes(versionArray, 2)); // true
+
+
 const ageArray = [21, 22, 25, 27, 25];
-console.log(includes(ageArray, 30));
+console.log(includes(ageArray, 30)); // false

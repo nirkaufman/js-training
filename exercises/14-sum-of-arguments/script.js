@@ -1,10 +1,11 @@
-console.log('14-sum-of-arguments');
-
-function sumOfArguments(...items){
-  // rest operator converts anything passed as an array
-  console.log('current items/values to add:', items);
-  return items.reduce((n1, n2) => n1 +n2);
+/*
+  * Sum of Arguments
+  * Create a function that sums all the arguments passed to it.
+ */
+function sumOfArguments(/* args */){
+  // your code goes here
 }
 
-console.log('Sum:', sumOfArguments(10, 2, 8, 4, 6));
-// console.log('Sum:', sumOfArguments([10, 2, 8, 4, 6]));
+// Usage: pass arguments
+console.log('Sum:', sumOfArguments(10, 2, 8, 4, 6)); // 30
+

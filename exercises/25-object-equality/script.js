@@ -1,41 +1,39 @@
-console.log('25-object-equality');
-
-// Constructor function/method - pascalCasing - pascal notation - use this keyword
+/*
+ * create a constructor function for a student object
+ */
 function Student(name, age, rank, country) {
-  this.name = name;
-  this.age = age;
-  this.rank = rank;
-  this.country = country;
+  // your code goes here
 }
 
+// example:
 let Students1 = new Student('Dinanath', 35, 5, 'India');
-console.log('Students1', Students1);
+console.log('Students1', Students1); // Students1 Student {name: "Dinanath", age: 35, rank: 5, country: "India"}
 
+// example:
 let Students2 = new Student('Dinanath', 35, 5, 'India');
-console.log('Students2', Students2);
+console.log('Students2', Students2); // Students2 Student {name: "Dinanath", age: 35, rank: 5, country: "India"}
 
-console.log('----------');
 
-// Objects are reference type, objects can have same properties but they are from different memeory location, they can be equal if both objects have same properties
-function isObjectEqual(obj1, obj2){
-  return obj1.name === obj2.name &&
-         obj1.age === obj2.age &&
-         obj1.rank === obj2.rank &&
-         obj1.country === obj2.country
+/*
+  * create a function to check if two objects are equal
+ */
+function isObjectEqual(obj1, obj2) {
+  // your code goes here
 }
 
-console.log('isEqual', isObjectEqual(Students1, Students2));
+console.log('isEqual', isObjectEqual(Students1, Students2)); // true
 
-console.log('----------');
-
-// Objects are same if both are pointed to same object
-function isObjectPointSame(obj1, obj2){
-  return obj1 === obj2;
+/*
+  * create a function to check if two objects are same
+ */
+function isObjectPointSame(obj1, obj2) {
+  // your code goes here
 }
 
+// Example:
 let isSame1 = isObjectPointSame(Students1, Students2);
-console.log('isSame1', isSame1);
+console.log('isSame1', isSame1); // false
 
 let Students3 = Students2;
-let isSame2 = isObjectPointSame(Students2, Students3);
-console.log('isSame2', isSame2);
+let isSame2 = isObjectPointSame(Students2, Students3); // true
+console.log('isSame2', isSame2); // true

@@ -12,7 +12,7 @@ const Person = {
   designation: 'UI Developer'
 }
 
-showStringProperties(Person);
+showStringProperties(Person); // name, country, designation
 console.log('----------');
 
 const Technology = {
@@ -22,5 +22,5 @@ const Technology = {
   developer: 'Netscape Corporation'
 }
 
-showStringProperties(Technology);
+showStringProperties(Technology); // name, purpose, developer
 console.log('----------');

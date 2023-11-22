@@ -1,5 +1,3 @@
-console.log('23-object-create-students-and-address-object');
-
 const Students = {
   name: 'Dinanath',
   age: 35,
@@ -15,12 +13,14 @@ const Address = {
   country: 'India',
 }
 
+/*
+  Write a function showObjectDetails(obj) that shows the
+  details of the object passed as a parameter.
+ */
 function showObjectDetails(obj) {
-  for(let key in obj) {
-    console.log(key,' : ',obj[key]);
-  }
+  // Write code here
 }
 
+// Expected output:
 showObjectDetails(Students);
-console.log('----------');
 showObjectDetails(Address);

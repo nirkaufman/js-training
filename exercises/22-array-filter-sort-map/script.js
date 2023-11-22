@@ -1,5 +1,3 @@
-console.log('22-array-filter-sort-map');
-
 const studentsArray = [
   { name: 'Suraj', year: 2019, ranking: 4 },
   { name: 'Amit', year: 2019, ranking: 5 },
@@ -8,10 +6,14 @@ const studentsArray = [
   { name: 'Sagar', year: 2017, ranking: 3 },
 ]
 
-console.log('Higest Rank Holders:',
-  studentsArray
-    .filter(student => student.year === 2019 && student.ranking >= 5)
-    .sort((n1, n2) => n1.ranking - n2.ranking)
-    .reverse()
-    .map(student => student.name)
-);
+/*
+  1. Filter students who passed in 2019
+  2. Sort students by ranking
+  3. Reverse the order
+  4. Map students to their names
+
+ */
+
+const results = ``/* Your code here */;
+
+console.log('Higest Rank Holders:', results); // ['Amit', 'Suraj']

@@ -16,16 +16,16 @@ function checkSpeedLimit(curSpeed) {
 
 // Usage examples:
 let checkPoin1 = checkSpeedLimit(40);
-console.log(checkPoin1);
+console.log(checkPoin1); // Good Safe Driving!
 
 let checkPoin2 = checkSpeedLimit(70);
-console.log(checkPoin2);
+console.log(checkPoin2); // Good Safe Driving!
 
 let checkPoin3 = checkSpeedLimit(75);
-console.log(checkPoin3);
+console.log(checkPoin3); // Speed Limit Crossed by Penalty Point: 1
 
 let checkPoin4 = checkSpeedLimit(99);
-console.log(checkPoin4);
+console.log(checkPoin4); // Speed Limit Crossed by Penalty Point: 5
 
 let checkPoin5 = checkSpeedLimit(120);
-console.log(checkPoin5);
+console.log(checkPoin5); // License Suspended!

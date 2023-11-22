@@ -1,17 +1,14 @@
-console.log('17-create-array-from-argument-range');
 
+/*
+  * Create a function that will receive two numbers as
+  * arguments and will generate an array of integers between the two numbers.
+ */
 function generateArrayFromRange(startNum, endNum) {
-  const rangeArray = [];
-  for(let curNum = startNum; curNum <= endNum; curNum++) {
-    // console.log('curNum: ', curNum);
-    rangeArray.push(curNum);
-    // console.log('rangeArray: ', rangeArray);
-  }
-  return rangeArray;
+  // your code goes here
 }
 
 const range1 = generateArrayFromRange(1, 5);
-console.log(range1);
-console.log('----------');
+console.log(range1); // -> [1, 2, 3, 4, 5]
+
 const range2 = generateArrayFromRange(-5, 0);
-console.log(range2);
+console.log(range2); // -> // [-5, -4, -3, -2, -1, 0]

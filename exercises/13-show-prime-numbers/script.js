@@ -1,48 +1,17 @@
-console.log('13-show-prime-numbers');
-
-// approach 1
-
-/* function showPrimeNumbers(numberLimit) {
-  for (let curNum = 2; curNum <= numberLimit; curNum++) {
-    // console.log('curNum', curNum);
-
-    let isPrime = true;
-    for (let factor = 2; factor < curNum; factor++) {
-      // console.log('factor', factor);
-      if (curNum % factor === 0) {
-        isPrime = false;
-        break;
-      }
-    }
-
-    if (isPrime) {
-      console.log('Prime Number', curNum);
-      
-    }
-  }
-} 
-
-showPrimeNumbers(20);*/
-
-// approach 2
-
+/*
+  Write a function that takes a number and displays all the prime
+  numbers from 2 to that number.
+ */
 function showPrimeNumbers(numberLimit) {
-  for (let curNum = 2; curNum <= numberLimit; curNum++) {
-    // console.log('curNum', curNum);
-    if (isPrimeNumber(curNum)) {
-      console.log('Prime Number:', curNum);
-    }
-  }
+  // your code goes here
 }
 
+/*
+  Write a function that takes a number and returns true if the number
+  is prime, false otherwise.
+ */
 function isPrimeNumber(_number) {
-  for (let factor = 2; factor < _number; factor++) {
-    // console.log('factor', factor);
-    if (_number % factor === 0) {
-      return false;
-    }
-  }
-  return true;
+  // your code goes here
 }
 
-showPrimeNumbers(20);
+showPrimeNumbers(20); // 2, 3, 5, 7, 11, 13, 17, 19
